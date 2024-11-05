@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+
+    <style>
+        /* Styling the table cells */
+        .cell {
+            width: 100px;
+            padding: 10px;
+            border: 1px black solid;
+            background-color: #f1f1f1;
+        }
+
+        /* Styling the table area */
+        .table {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #1e90ff;
+        }
+
+        /* Styling the rows */
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="row header">
+          <div class="cell">Header 1</div>
+          <div class="cell">Header 2</div>
+          <div class="cell">Header 3</div>
+        </div>
+        <div class="row">
+          <div class="cell">Cell 1</div>
+          <div class="cell">Cell 2</div>
+          <div class="cell">Cell 3</div>
+        </div>
+      </div>
+</body>
+</html>
